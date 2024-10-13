@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d0f0c0; /* Light green background color */
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.introduction {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.bio {
+    max-width: 600px;
+}
+
+.skills, .projects, .resume, .contact {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.skills ul, .projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li, .projects li {
+    background: #d0f0c0;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+.contact a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
